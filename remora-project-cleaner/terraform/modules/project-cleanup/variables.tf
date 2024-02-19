@@ -41,9 +41,9 @@ variable "sendgrid_config" {
   type        = map(any)
   description = "Map of values required for Sendgrid configuration: 'sendgrid_secret_name', 'sendgrid_reply_to_email','sendgrid_sender_email'"
   default = {
-    sendgrid_secret_name    = ""
-    sendgrid_reply_to_email = ""
-    sendgrid_sender_email   = ""
+    sendgrid_secret_name    = "sendgrid-key"
+    sendgrid_reply_to_email = "tfarrell@mcclatchy.com"
+    sendgrid_sender_email   = "GCPActiveAssist@mcclatchycom"
   }
 }
 
