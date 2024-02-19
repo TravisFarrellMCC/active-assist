@@ -22,7 +22,7 @@ module "recommendations_workflow_sendgrid" {
     sendgrid_reply_to_email = var.sendgrid_reply_to_email
     sendgrid_sender_email   = var.sendgrid_sender_email
   }
-  time_zone   = "America/Los_Angeles"
+  time_zone   = "America/New_York"
   is_dry_run  = false
   schedule    = "0 0 1 * *"
   enable_apis = var.enable_apis
